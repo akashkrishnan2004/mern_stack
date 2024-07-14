@@ -1,6 +1,6 @@
 mern stack
 
-m
-e
-r
-n
+m - mongo db
+e - express
+r - react
+n - node js
