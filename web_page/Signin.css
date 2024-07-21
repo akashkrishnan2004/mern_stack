@@ -10,11 +10,11 @@ div {
     background-color: #e67474;
     border-radius: 8px;
     padding: 20px;
-    width: 400px;
+    width: 250px;
 }
 
 input {
-    width: 250px;
+    width: 150px;
     height: 30px;
     border-radius: 6px;
     margin-left: 30px;
@@ -24,6 +24,7 @@ button {
     width: 300px;
     height: 30px;
     border-radius: 6px;
+    width: 100%;
 }
 
 label {
