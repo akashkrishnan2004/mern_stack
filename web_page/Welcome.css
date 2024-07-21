@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #efe5e5;
+}
+
+div { 
+    background-color: #e67474;
+    padding: 30px;
+    border-radius: 8px;
+    width: 200px;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    
+}
