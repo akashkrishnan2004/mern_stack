@@ -33,7 +33,7 @@ h1 {
     text-align: center;
     color: blueviolet;
     font-weight: lighter;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 a {
@@ -45,7 +45,7 @@ input {
     height: 30px;
     border-radius: 4px;
     border-style: none;
-    background-color: #e2cfcf;
+    background-color: #f0d9d9;
 }
 
 .login-button {

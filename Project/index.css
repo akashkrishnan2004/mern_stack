@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Poppins;
+    src: url("News\ Gothic\ Extra\ Condensed.ttf");
+}
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vh;
+    font-family: "poppins";
+}
+nav {
+    position: fixed;
+    top: 0;
+    height: 7rem;
+    width: 100%; 
+    background-color: white;
+}
+.navigation {
+    float: right;
+    display: inline;
+    padding: 4rem;
+}
+.item {
+    display: inline;
+    color: black;
+    padding-inline: .5rem;
+    font-weight: bold;
+}
+
+.logo {
+    float: left;
+    background-image: url(logo.png.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    /*padding-left: 4rem;
+    height: 7rem; */
+    position: fixed;
+    top: 3rem;
+    left: 4rem;
+    height: 7rem;
+    width: 5rem;
+    display: flex;
+    align-items: start;
+    justify-content: left;
+}
+.img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    background-image: url("lighting2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: red;
+    width: 100vw;
+    height: 800px;
+    
+}
+
+.head1 {
+    font-family: "poppins";
+    font-weight: lighter;
+    
+}
+
+.h1 {
+    color: white;
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: lighter;
+}
+.h2 {
+    color: white;
+    text-align: center;
+    font-family: "Poppins";
+    background-color: #fab700;
+    color: black;
+    border-radius: 8px;
+
+}
+.para1 {
+    color: white;
+    text-align: center;
+}
+.button1 {
+    color: #fab700;
+    background-color: #222222;
+    width: 160px;
+    height: 40px;
+    border-radius: 8px;
+    border-style: none;
+}
+.button1:hover {
+    background-color: #fab700;
+    color: #222222;
+}
+  
+.service1{
+    height: 40vh;
+    width: 100vw;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center; 
+}
+.service2 {
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4vh;
+
+}
+.child-div1 {
+    display: inline;
+    background-color: rgb(240, 231, 231);
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+
+}
+.img1 {
+    background-image: url("building_drawings.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    height: 80px;
+    width: 80px;
+    margin-top: 30px;
+}
+
+
+.child-div2 {
+    display: inline;
+
+    background-color: rgb(240, 231, 231);
+    height: 400px;
+    width: 400px;
+    align-items: baseline;
+    justify-content: center;
+    
+
+}
+.img2 {
+    background-image: url("painting_constructions.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    height: 80px;
+    width: 80px;
+    margin-top: 30px;
+}
+.para3 {
+    text-align: center;
+}
+
+.child-div3 {
+    display: inline;
+
+    background-color: rgb(240, 231, 231);
+    height: 400px;
+    width: 400px;
+    align-items: baseline;
+    justify-content: center;
+    
+
+}
+.img3 {
+    background-image: url("repairing_constructions.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    height: 80px;
+    width: 80px;
+    margin-top: 30px;
+}
+.h4 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+
+.service3 {
+    height: 20vh;
+    width: 100vw;
+    gap: 100vh;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+
+}
+.child-div4 {
+    text-align: center;
+}
+.para4 {
+    text-align: center;
+}
+
+.container{
+    width: 100vw;
+    height: 35vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    flex: 1;
+}
+.cont-img1{
+    background-color: red;
+    background-image: url("builder-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cont-img2{
+    background-color: aqua;
+    background-image: url("builder-2.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cont-img3{
+    background-color: yellow;
+    background-image: url("builder-3.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cont-img4{
+    background-color: green;
+    background-image: url("builder-4.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cont-img5{
+    background-color: orange;
+    background-image: url("builder-5.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cont-img6{
+    background-color: brown;
+    background-image: url("builder-6.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
