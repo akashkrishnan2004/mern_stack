@@ -11,17 +11,43 @@ body {
     width: 100vh;
     font-family: "poppins";
 }
+.top-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    background-color: red;
+}
+.icons {
+    
+}
 nav {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    top: 0;
+    padding-inline: 10rem;
+    padding-block: 1rem;
+    /*
     position: fixed;
     top: 0;
     height: 7rem;
     width: 100%; 
-    background-color: white;
+    background-color: white;*/
+}
+.logo {
+    display: flex;
+    align-items: start;
 }
 .navigation {
-    float: right;
+    display: flex;
+    gap: 1rem;
+    /*float: right;
     display: inline;
-    padding: 4rem;
+    padding: 4rem;*/
 }
 .item {
     display: inline;
@@ -29,10 +55,13 @@ nav {
     padding-inline: .5rem;
     font-weight: bold;
 }
+.item:hover {
+    color: #fab700;
+}
 
 .logo {
     float: left;
-    background-image: url(logo.png.webp);
+    /*background-image: url(logo.png.webp);*/
     background-size: contain;
     background-repeat: no-repeat;
     
@@ -75,6 +104,12 @@ nav {
     text-align: center;
     font-family: "Poppins";
     font-weight: lighter;
+    font-size: 3rem;
+}
+.yellow-box {
+    color: black;
+    background-color: #fab700;
+    border-radius: 4px;
 }
 .h2 {
     color: white;
@@ -88,6 +123,7 @@ nav {
 .para1 {
     color: white;
     text-align: center;
+    font-size: 1.5rem;
 }
 .button1 {
     color: #fab700;

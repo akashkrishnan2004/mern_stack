@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;    
+    display: flex;
+
+}
+.col {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
+.row:nth-child(odd) > .col:nth-child(even) {
+    background-color: black;
+}
+.row:nth-child(even) > .col:nth-child(odd) {
+    background-color: black;
+}

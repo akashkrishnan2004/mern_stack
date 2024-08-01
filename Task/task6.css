@@ -1,0 +1,140 @@
+* {
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: black;*/
+    color: white;
+    background-color: #363434;
+}
+.container {
+    height: 500px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 2fr;
+    background-color: #000000;
+    color: white;
+    border: 1px solid black;
+    gap: 5px 5px;
+    padding-top: 10px;
+    padding-inline: 10px;
+    padding-bottom: 30px;
+
+    position: relative;
+}
+.items {
+    border: 1px solid black;
+    background-color: #1d1d1d;
+    border-radius: 15px;
+}
+.items:nth-child(1) {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.items:nth-child(2) {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.items:nth-child(3) {
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.items:nth-child(4) {
+    grid-column-start: 4;
+    grid-column-end: 5;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.items:nth-child(5) {
+    grid-column-start: 4;
+    grid-column-end: 6;
+
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.item1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+
+}
+.item4 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: left;
+}
+.head1 {
+    
+}
+.head2 {
+    font-size: 3rem;
+}
+.head3 {
+    position: absolute;
+    top: 0;
+
+}
+.head4 {
+    font-size: 50px;
+    padding-left: 10px;
+}
+.head6 {
+    position: absolute;
+    top: 10rem;
+
+}
+.para1 {
+    padding-left: 10px;
+}
+.para2 {
+    font-size: 7px;
+    margin-left: 3px;
+}
+.para3 {
+    justify-content: start;
+    font-size: 13px;
+}
+.h1 {
+    font-size: 3.5rem;
+}
+
+.sub {
+     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    
+}
+.parts {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    display: flex;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: white;
+
+    
+}
