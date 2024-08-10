@@ -1,0 +1,162 @@
+@font-face {
+    font-family: Roboto;
+    src: url("Roboto-Regular.ttf");
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: Roboto;
+}
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(3, 3, 37);
+}
+.main { 
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+.navbar .logo {
+    font-size: 1.5em;
+}
+.navbar .menu-icon {
+    display: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.navbar .nav-links {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar .nav-links li {
+    display: inline;
+}
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.navbar .highlight {
+    background-color: #04AA6D;
+    border-radius: 5px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+
+}
+.main-head1 {
+    font-weight: lighter;
+}
+.main-para1 {
+
+}
+.main-para1 a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: underline;
+    line-height: 1rem;
+}
+.main-para1 a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+.main-form {
+    height: 90vh;
+    width: 30vw;
+    margin-top: 3rem;
+    border: 1px solid white;
+    border-radius: .5rem;
+    background-color: rgb(19, 19, 50);
+    padding: 3rem;
+}
+.label1 {
+    font-weight: lighter;
+    font-size: 1rem;
+    line-height: 3rem;
+}
+.button1 {
+    height: 5.5vh;
+    width: 100%;
+    border-radius: .5rem;
+    border: 1px solid white;
+    line-height: 5rem;
+    background: rgb(70, 70, 82);
+    color: white;
+}
+.terms {
+    padding: 2rem;
+
+}
+.terms p a {
+    color: white;
+}
+.terms p a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sign-up {
+    height: 5.5vh;
+    width: 100%;
+    background-color: #04AA6D;
+    border-radius: .5rem;
+    border: none;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    color: white;
+    cursor: pointer;
+}
+
+.sign-up-para1 {
+    text-align: center;
+    line-height: 1rem;
+    padding-block: 3rem;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    color: white;
+}
+.sign-up-icon1 {
+    height: 5.5vh;
+    width: 50%;
+    padding-inline: 2rem;
+    border-radius: .5rem;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+.sign-up-icon2 {
+    height: 5.5vh;
+    width: 50%;
+    padding-inline: 2rem;
+    border-radius: .5rem;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;   
+}
+.sign-up-icon1:hover, .sign-up-icon2:hover {
+    background-color: rgb(125, 119, 119);
+    cursor: pointer;
+}

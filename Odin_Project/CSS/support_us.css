@@ -1,0 +1,144 @@
+@font-face {
+    font-family: Roboto;
+    src: url("Roboto-Regular.ttf");
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: Roboto;
+}
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(3, 3, 37);
+
+
+    /* position: relative; */
+}
+.main { 
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+.navbar .logo {
+    font-size: 1.5em;
+}
+.navbar .menu-icon {
+    display: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.navbar .nav-links {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar .nav-links li {
+    display: inline;
+}
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.navbar .highlight {
+    background-color: #04AA6D;
+    border-radius: 5px;
+}
+
+/* Support the Project */
+
+
+.support {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+}
+.support-head1 {
+    color: white;
+}
+.support-para1 {
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    line-height: 1.9rem;
+    font-size: 1.2rem;
+    font-weight: lighter;
+
+    word-wrap: break-word;
+    white-space: pre-line;
+
+    overflow-wrap: normal;
+}
+
+.support-button button {
+    background-color: #04AA6D;
+    height: 4rem;
+    width: 14rem;
+    border-radius: .5rem;
+    border: none;
+    font-size: 1.2rem;
+    color: white;
+}
+.support-button button:hover {
+    background-color: #077d52;
+}
+
+/* Frequently Asked Questions */
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: gray;
+    /* position: absolute; */
+    
+}
+
+.questions-head1 {
+    padding: 3rem;
+    margin-top: -40rem;
+}
+.sub-questions {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: left;
+    position: absolute;
+
+    float: left;
+    margin-top: -30rem;
+    height: auto;
+    width: 60%; 
+    /* padding-inline: 20rem;
+    padding-block: 20rem; */
+    /* background-color: red; */
+    
+}
+.questions-head3 {
+    padding-top: 10rem;
+}
+.questions-para1 {
+    padding-top: 2rem;
+
+    word-wrap: break-word;
+    white-space: pre-line;
+
+    overflow-wrap: normal;
+
+}

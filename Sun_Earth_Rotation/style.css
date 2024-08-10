@@ -42,9 +42,10 @@ body {
     height: 600px;
     width: 600px;
     border-radius: 50%;
-    animation-name: earth;
+    animation-name: move;
     animation-iteration-count: infinite;
     animation-duration: 10s;
+    animation-timing-function: linear;
 }
 .earth {
     height: 80px;
@@ -68,10 +69,11 @@ body {
     width: 200px;
     border-radius: 50%;
     /* border: 1px solid black; */
-    animation-name: moon;
+    animation-name: move;
     animation-iteration-count: infinite;
     animation-duration: 5s;
     position: absolute;
+    animation-timing-function: linear;
 }
 
 .moon {
@@ -87,16 +89,7 @@ body {
     position: absolute;
 }
 
-@keyframes earth {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes moon {
+@keyframes move {
     0% {
         transform: rotate(0deg);
     }
